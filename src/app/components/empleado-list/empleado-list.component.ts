@@ -29,6 +29,8 @@ export class EmpleadoListComponent implements OnInit {
     }
   ]
 
+  radioButtonSelected = 'Todos';
+
   constructor() { }
 
   ngOnInit(): void {
